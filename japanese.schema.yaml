@@ -77,6 +77,8 @@ speller:
     - 'derive/fu/hu/'
     # nn → n
     - 'derive/n$/nn/'
+    # x → _
+    - 'derive/x/_/'
 
 translator:
   dictionary: japanese
