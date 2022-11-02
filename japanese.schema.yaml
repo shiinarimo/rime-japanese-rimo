@@ -78,7 +78,7 @@ speller:
     # nn → n
     - 'derive/n$/nn/'
     # x → _
-    - 'derive/x/_/'
+    - 'derive/x([a-z])$/_$1/'
 
 translator:
   dictionary: japanese
