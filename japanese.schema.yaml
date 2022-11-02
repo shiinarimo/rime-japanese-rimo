@@ -74,7 +74,9 @@ speller:
     - 'derive/-/q/'
     # Add / remove rules the as you wish
     - 'derive/i_e/ye/'
-    # - 'derive/fu/hu/'
+    - 'derive/fu/hu/'
+    # nn → n
+    - 'derive/n$/nn/'
 
 translator:
   dictionary: japanese
